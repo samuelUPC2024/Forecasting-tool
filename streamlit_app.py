@@ -128,7 +128,7 @@ def crear_features_temporales(df):
 # |                   BARRA LATERAL (SIDEBAR) (MODIFICADA)                 |
 # --------------------------------------------------------------------------
 
-logo_path = "Logo_ASEPEYO.png"
+logo_path = "LogoSAMPHEL ENERGIES.png"
 if os.path.exists(logo_path):
     st.sidebar.image(logo_path, width=200)
 else:
