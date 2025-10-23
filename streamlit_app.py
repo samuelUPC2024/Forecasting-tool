@@ -128,11 +128,11 @@ def crear_features_temporales(df):
 # |                   BARRA LATERAL (SIDEBAR) (MODIFICADA)                 |
 # --------------------------------------------------------------------------
 
-logo_path = "unnamed.png"
+logo_path = "unnamed.jpg"
 if os.path.exists(logo_path):
     st.sidebar.image(logo_path, width=200)
 else:
-    st.sidebar.warning("Logo_ASEPEYO.png no encontrado.")
+    st.sidebar.warning("unnamed.jpg no encontrado.")
 
 st.sidebar.title("Configuración de la Predicción")
 st.sidebar.markdown("---")
